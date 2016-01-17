@@ -279,8 +279,9 @@ a:focus {
 {
 	color:#fff;
 	margin:0;
-	padding:40px 5px 0;
-	font-size:16px;
+	padding:40px 20px 0;
+	font-size:30px;
+	line-height: 1.5em;
 	text-transform:uppercase;
 }
 .tpl6 .dmbutton
@@ -295,7 +296,7 @@ a:focus {
 	height:100%;
 	width:100%;
 	background-color:{{ site.colors.primary }};
-	background-color:rgba({{ site.colors.primary_rgb }},.9);
+	background-color:rgba({{ site.colors.primary_rgb }},.8);
 	text-align:center;
 }
 
