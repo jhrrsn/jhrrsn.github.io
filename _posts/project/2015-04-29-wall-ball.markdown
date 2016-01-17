@@ -1,0 +1,20 @@
+---
+layout: project
+title:  "Wall Ball"
+date:   2015-04-29 12:00:00
+author: Jack Harrison
+downloads:
+- Windows: https://www.dropbox.com/s/0kajp5euf2xrkm8/WallBall%20%28Windows%29.zip?dl=0
+- Mac: https://www.dropbox.com/s/5yz7ffddd55fctv/WallBall%20%28Mac%29.zip?dl=0
+categories:
+- project
+img: 02-wall-ball.png
+carousel:
+- 02-wall-ball-01.png
+tagged: Game, Clone, Learning
+website: https://github.com/jhrrsn/learninggames
+---
+####WALL BALL
+This one was pretty quick too - it used a lot of the same code as Pong, which helped.
+
+Again I had to add some failsafes against things like the ball bouncing endlessly horizontally between the sides of the stage, but generally it was all straightforward physics in Unity. The power-ups were fun, I had originally intended to add more but I got a little bored with Breakout! In the end there were two, a simple paddle extension and a more challenging (and probably not that well-explained!) slow-motion ball. I also really enjoyed making the ascending notes that play if you manage to hit multiple bricks in a single bounce.

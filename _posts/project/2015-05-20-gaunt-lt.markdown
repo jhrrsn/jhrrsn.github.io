@@ -1,0 +1,24 @@
+---
+layout: project
+title:  "Gaunt.LT"
+date:   2015-05-20 12:00:00
+author: Jack Harrison, Chris Roberts
+downloads:
+- Windows: https://www.dropbox.com/s/g1rfcepa02eb7nv/Gauntlet-1.0a%20%28Windows%29.zip?dl=0
+- Mac: https://www.dropbox.com/s/yshgwn2snzfwv3u/Gauntlet-1.0a%20%28Mac%29.zip?dl=0
+categories:
+- project
+img: 03-gaunt-lt.png
+carousel:
+- 03-gaunt-lt-01.png
+tagged: Game, Clone, Learning
+website: https://github.com/jhrrsn/learninggames
+---
+####GAUNT.LT
+This one got a little more ambitious for me. I decided I wanted to make some art, for starters. I also got co-conspirator [Chris](http://twitter.com/mosslungs) to make some original music & sfx.
+
+I used [Piskel](http://www.piskelapp.com/) to make the sprites & animations for the game - it's super simple and it has great support for making & testing animations. I stuck to a pretty limited palette of colours, which many art tutors seem to suggest, and I think it really helps to make the aesthetic of the game feel consistent. I also got a chance to use Light2D again, a Unity asset which I purchased during the last Ludum Dare to make Broadship Explorer. It certainly makes it easy to get some pretty awesome results with 2D sprites - still has a few kinks I need to figure out though.
+
+It wasn't a huge headache to add a second player and PS4 controls, either. Figuring out the camera and mob following behaviours was the most challenging part, as you need to ensure that the game doesn't fall over if one player dies before the other!
+
+Supporting two players meant I could playtest it with actual real human beings! It can't be understated how much fun it is to watch your friends play & enjoy a game together that you have made, even just for a few minutes.

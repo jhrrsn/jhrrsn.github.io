@@ -22,7 +22,7 @@
 	}
 
 body {
-	background: #FFF8E5; 
+	background: #FFF8E5;
 	margin: 0;
 	height: 100%;
 	color: {{ site.colors.secondary }};
@@ -267,11 +267,13 @@ a:focus {
 	display:block;
 }
 
-
+.portfolio-item {padding: 1em;}
 .portfolio-item .title:before {border-radius:0; display:none}
 .portfolio-item p {margin:0px 0 30px;}
 .portfolio-item h3 {margin:-10px 0 10px; font-size:16px; text-transform:uppercase;}
 
+/* Projects */
+.download-link {margin-left: 1em;}
 
 .tpl6 h3
 {

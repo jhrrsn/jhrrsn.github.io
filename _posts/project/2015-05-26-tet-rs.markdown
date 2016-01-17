@@ -1,0 +1,22 @@
+---
+layout: project
+title:  "Tetris"
+date:   2015-05-20 12:00:00
+author: Jack Harrison
+downloads:
+- Windows: https://www.dropbox.com/s/7l63w04ty978i19/Tetris%20%28Windows%29.zip?dl=0
+- Mac: https://www.dropbox.com/s/nrj4hl8k8vk7yx9/Tetris%20%28Mac%29.zip?dl=0
+categories:
+- project
+img: 04-tet-rs.png
+carousel:
+- 04-tet-rs-01.png
+tagged: Game, Clone, Learning
+website: https://github.com/jhrrsn/tet-rs-clone
+---
+####TET.RS
+Tetris is a deceptively challenging game to program - especially if, like me, you've only really made action games before. I got pretty frustrated trying to wrap my head around the architecture of the program - this [conceptual implementation](http://tutorials.jenkov.com/flex-tetris/conceptual-implementation.html) was a great help.
+
+Creating a system that restricts the movement and rotation of the pieces to make sure they don't leave the boundaries of the grid or clip placed blocks is tough. In the end I went with an 'undo' system that makes the tranformation (rotational or horizontal), checks whether that new position is valid, and undoes the transformation if it's not. Moving blocks are not monitored by the grid manager, only when they reach a resting position are the cells 'checked in' to the grid. At this point we check & clear full rows and shift down the above rows appropriately.
+
+The track playing is In Decay, by [Com Truise](http://comtruise.com/). It's available from [Ghostly International](http://ghostly.com/media).

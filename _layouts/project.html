@@ -20,13 +20,20 @@ layout: default
             <h4>Project Details</h4>
             <div class="hline"></div>
             <p><b>Date:</b> {{ page.date | date: "%b %-d, %Y" }}</p>
-            <p><b>Author:</b> {{ page.author }}</p>
-            <p><b>Categories:</b> {{ page.categories }}</p>
+            <p><b>Team:</b> {{ page.author }}</p>
+            <p><b>Download Links:</b>
+              {% for link_hash in page.downloads %}
+                {% for link in link_hash %}
+                  <li class="download-link">
+                    <a href="{{ link[1] }}">{{ link[0] }}</a>
+                  </li>
+                {% endfor %}
+              {% endfor %}
+            </p>
             <p><b>Tagged:</b> {{ page.tagged }}</p>
-            <p><b>Client:</b> {{ page.client }}</p>
-            <p><b>Website:</b> <a href="{{ page.website }}">{{ page.website }}</a></p>
+            <p><b>Source:</b> <a href="{{ page.website }}">{{ page.website }}</a></p>
         </div>
     </div><! --/row -->
 </div><! --/container -->
-	 
-{% include portfolio.html title="Related Works." limit=5 %}
+
+{% include portfolio.html title="More Projects." limit=5 %}
