@@ -207,6 +207,10 @@ a:focus {
 	border-bottom: 2px solid {{ site.colors.secondary }};
 }
 
+.hline-thin {
+	border-bottom: 1px solid rgba({{ site.colors.primary_rgb }},.1);;
+}
+
 .hline-w {
 	border-bottom: 2px solid #ffffff;
 	margin-bottom: 25px;
@@ -425,12 +429,16 @@ a:focus {
 .ctitle {
 	color: {{ site.colors.primary }};
 	font-weight: 700;
-	margin-bottom: 15px;
+	margin-bottom: 0px;
 }
 
 csmall {
 	font-size: 12px;
 	color: #b3b3b3;
+}
+
+.post-date {
+	color: #8f8f8f;
 }
 
 .spacing {

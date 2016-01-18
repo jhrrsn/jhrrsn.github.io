@@ -11,20 +11,28 @@ layout: default
             <! -- Blog Post  -->
             <p><img class="img-responsive" src="{{ "/assets/img/blog/" | prepend: site.baseurl }}{{ page.img }}"></p>
             <a href="{{ page.url | prepend: site.baseurl }}"><h3 class="ctitle">{{ page.title }}</h3></a>
-            <p><csmall>{{ page.date | date: "%b %-d, %Y" }}. | By: {{ page.author }}</csmall></p>
-              
+
+            {% for category in page.categories %}{% unless category == "blog" %}
+              <csmall class="tag-list">{{ category | upcase | replace:'-',' ' }}&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<csmall>
+            {% endunless %}{% endfor %}
+
+            <div class="hline-thin"></div>
+            <h4 class="post-date">{{ page.date | date: "%B %-d, %Y" }}.</h4>
+            <div class="hline-thin"></div>
+
             {{ content }}
 
             <div class="spacing"></div>
+
             <!-- <h6>SHARE:</h6>
             <p class="share">
                 <a href="#"><i class="fa fa-twitter"></i></a>
                 <a href="#"><i class="fa fa-facebook"></i></a>
                 <a href="#"><i class="fa fa-tumblr"></i></a>
-                <a href="#"><i class="fa fa-google-plus"></i></a>		 		
+                <a href="#"><i class="fa fa-google-plus"></i></a>
             </p> -->
         </div><! --/col-lg-8 -->
-        
+
         {% include sidebar.html %}
 
     </div><! --/row -->
