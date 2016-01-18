@@ -449,6 +449,20 @@ csmall {
 	background: {{ site.colors.primary }};
 }
 
+.circular {
+	background-image: url(http://i.imgur.com/K1Dlnr2.png);
+	background-position: 50% 50%;
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	border-radius: 50%;
+	box-shadow: inset 0px 0px 5px #000;
+	-webkit-box-shadow: inset 0px 0px 5px #000;
+	-moz-box-shadow: inset 0px 0px 5px #000;
+	width: 200px;
+	height: 200px;
+	margin: 0 auto;
+}
+
 /* Contact Page */
 #contactwrap {
 	background: url(../img/contact.jpg) no-repeat center top;
