@@ -15,6 +15,6 @@ tagged: Game, Clone, Learning
 website: https://github.com/jhrrsn/learninggames
 ---
 ####WALL BALL
-This one was pretty quick too - it used a lot of the same code as Pong, which helped.
+This one was pretty quick too - it used a lot of the same code as Lawn Tennis, which helped.
 
-Again I had to add some failsafes against things like the ball bouncing endlessly horizontally between the sides of the stage, but generally it was all straightforward physics in Unity. The power-ups were fun, I had originally intended to add more but I got a little bored with Breakout! In the end there were two, a simple paddle extension and a more challenging (and probably not that well-explained!) slow-motion ball. I also really enjoyed making the ascending notes that play if you manage to hit multiple bricks in a single bounce.
+Again I had to add some failsafes to handle things like the ball bouncing endlessly horizontally between the sides of the stage, but generally it was all straightforward physics in Unity. The power-ups were fun, I had originally intended to add more but I got a bit bored! In the end there were two, a simple paddle extension and a more challenging (and probably not that well-explained!) slomo-zone paddle. I really enjoyed making the ascending notes that play if you manage to hit multiple bricks in a single bounce.

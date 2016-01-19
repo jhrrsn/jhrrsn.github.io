@@ -21,4 +21,4 @@ I used [Piskel](http://www.piskelapp.com/) to make the sprites & animations for 
 
 It wasn't a huge headache to add a second player and PS4 controls, either. Figuring out the camera and mob following behaviours was the most challenging part, as you need to ensure that the game doesn't fall over if one player dies before the other!
 
-Supporting two players meant I could playtest it with actual real human beings! It can't be understated how much fun it is to watch your friends play & enjoy a game together that you have made, even just for a few minutes.
+Supporting two players meant I could playtest it with actual real human beings. It can't be understated how much fun it is to watch your friends play & enjoy a game together that you have made, even just for a few minutes.
